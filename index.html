@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <header>Em Busca do tesouro perdido</header>
+            <img src="img/caixa.jpeg" alt="Inicio da Jornada">
+            <p>Em uma pequena vila chamada Brisa do Mar, um jovem chamado Thomás enquanto olhava umas fotos e cartas em uma pequena caixa de madeirab que estava em baixo da cama de sua avó encontra um mapa do tesouro e fica em dúvida se deve segui-lo ou não</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o mapa</button>
+            <button class="btn-proximo" data-proximo="2">Não seguir o mapa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="img/mapa.jpeg" alt="Vamos seguir o mapa">
+            <p>O primeiro passo é arrumar suas coisas para começar a procurar o tesouro perdido, colocou algumas peças de roupas, comidas e ficou em duvida se deve levar lanterna ou não</p>
+            <button class="btn-proximo" data-proximo="3">Levar lanterna</button>
+            <button class="btn-proximo" data-proximo="4">Não levar lanterna</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/mapa.jpeg" alt="Não seguir o mapa">
+            <p>O que fazer com o mapa?</p>
+            <button class="btn-proximo" data-proximo="5">Guardar o mapa de volta na pequena caixa de madeira</button>
+            <button class="btn-proximo" data-proximo="6">Perguntar para sua avó onde ela conseguiu o mapa</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="img/lanterna.jpeg" alt="Levar lanterna">
+            <p>Thomás pegou a lanterna colocou em sua mochila, pegou o mapa e foi em direção a primeira dica que era na praça central</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para a praça central</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/lanterna.jpeg" alt="Não levar lanterna">
+            <p>Thomás não pegou a lanterna fechou sua mochila, pegou o mapa e foi em direção a primeira dica que era na praça central</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a praça central</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/lanterna.jpeg" alt="Guardar o mapa de volta na pequena caixa de madeira">
+            <p>Você não achou a cidade perdida </p>
+            <button class="btn-proximo" data-proximo="7">Ir para a praça central</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/mapa.jpeg"Perguntarpara sua avó onde ela conseguiu o mapa">
+            <p>Thomás pergunta a sua avó onde ela consegiu o mapa e ela fala queahou perdido nas coisas dos avós dela, dessa forma não chegando a conclussão alguma</p>
+            <button class="btn-proximo" data-proximo="8">Finalizar busca</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/salgueiro.jpeg" alt="Seguir para a praça central">
+            <pepara Na praça central após ele cavar em baixo do salgueiro a pista deu duas opções</p>
+            <button class="btn-proximo" data-proximo="9">Ir para um barco</button>
+            <button class="btn-proximo" data-proximo="10">Ir para uma ponte</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="img/mapa.jpeg" alt="Finalizar busca">
+            <p>Você encerrou a busca pelo tesouro perdido</p>
+
+        <div class="passo" id="passo-9">
+            <img src="img/barco.jpeg" alt="Ir para um barco">
+            <p>Thomás vai até o barco que está ilustrado no mapa e ao entrar no barco se depara com uma exuberante quantidade de ouro e jóias </p>
+            <button class="btn-proximo" data-proximo="12">Pegar todo o ouro possível </button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="img/ponte.jpeg" alt="Ir para uma ponte">
+            <p>Thomás chega na única ponte da cidade e encontra uma dica que manda ele ir para o barco</p>
+            <button class="btn-proximo" data-proximo="11">Ir para o barco</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/barco.jpeg" alt="Ir para o barco">
+            <p>Thomás vai até o barco que está ilustrado no mapa e ao entrar no barco se depara com uma exuberante quantidade de ouro e jóias</p>
+            <button class="btn-proximo" data-proximo="12">Pegar todo o ouro possível </button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="img/ouro.jpeg" alt="Pegar todo o ouro possível">
+            <p>Thomás pega todo o ouro possível e o leva para casa, fazendo isso muitas vezes até retirar todo o ouro do barco, dessa forma finalizando sua busca com todo o tesouro.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
